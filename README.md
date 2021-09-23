@@ -9,11 +9,11 @@
 ## Usage
 Just like that
 ```html
-	<Math data="E=mc^{2}/>
+	<Math data="E=mc^{2}" />
 ```
 Or make it dynamic!, change the display
 ```html
-	<Math :data="data" display="inline"/>
+	<Math :data="data" display="inline" />
 ```
 
 ## Props
