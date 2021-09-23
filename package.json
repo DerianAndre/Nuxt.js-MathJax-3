@@ -1,0 +1,28 @@
+{
+	"name": "nuxtjs-mathjax-3-boilerplate",
+	"version": "1.0.0",
+	"author": {
+		"name": "Derian Castillo",
+		"email": "hola@derianandre.com",
+		"url": "https://derianandre.com"
+	},
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"copy": "xcopy /Y /I /E node_modules\\mathjax\\es5\\* static\\mathjax\\",
+		"copy-full": "xcopy /Y /I /E node_modules\\mathjax-full\\es5\\* static\\mathjax-full\\"
+	},
+	"dependencies": {
+		"bootstrap": "^5.1.1",
+		"core-js": "^3.18.0",
+		"mathjax": "^3.2.0",
+		"mathjax-full": "^3.2.0",
+		"nuxt": "^2.15.8"
+	},
+	"devDependencies": {
+		"sass": "^1.39.2",
+		"sass-loader": "^10.2.0"
+	}
+}
